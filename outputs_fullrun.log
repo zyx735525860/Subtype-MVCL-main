@@ -1,0 +1,39 @@
+==========================================================================
+全量训练 Subtype-MVCL：10 个癌种
+每组：预训练 300 epoch + 微调 1200 epoch
+==========================================================================
+[STAD] 开始训练 ... (pre=300, finetune=1200)
+[STAD] 完成  用时 11.2 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\STAD.log
+[LUAD] 开始训练 ... (pre=300, finetune=1200)
+[LUAD] 完成  用时 11.3 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\LUAD.log
+[UCEC] 开始训练 ... (pre=300, finetune=1200)
+[UCEC] 完成  用时 11.8 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\UCEC.log
+[BLCA] 开始训练 ... (pre=300, finetune=1200)
+[BLCA] 完成  用时 11.3 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\BLCA.log
+[BRCA] 开始训练 ... (pre=300, finetune=1200)
+[BRCA] 完成  用时 29.0 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\BRCA.log
+[SKCM] 开始训练 ... (pre=300, finetune=1200)
+[SKCM] 完成  用时 10.2 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\SKCM.log
+[KIRC] 开始训练 ... (pre=300, finetune=1200)
+[KIRC] 完成  用时 12.4 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\KIRC.log
+[GBM] 开始训练 ... (pre=300, finetune=1200)
+[GBM] 完成  用时 0.6 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\GBM.log
+[PAAD] 开始训练 ... (pre=300, finetune=1200)
+[PAAD] 完成  用时 1.0 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\PAAD.log
+[UVM] 开始训练 ... (pre=300, finetune=1200)
+[UVM] 完成  用时 1.3 分钟  日志 -> F:\待处理论文\何军\denoise_fusion\outputs\logs\UVM.log
+
+==========================================================================
+全部结束，总用时 100.1 分钟
+  STAD   OK
+  LUAD   OK
+  UCEC   OK
+  BLCA   OK
+  BRCA   OK
+  SKCM   OK
+  KIRC   OK
+  GBM    OK
+  PAAD   OK
+  UVM    OK
+==========================================================================
+提示：训练完成后可运行 `python export_figures.py` 用新结果重新出图。
